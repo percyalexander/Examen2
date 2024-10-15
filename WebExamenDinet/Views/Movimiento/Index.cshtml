@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Entidades.Movimiento>
+@using Entidades;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Crear")
+</p>
+<table class="table">
+    <tr>
+        <td>
+            @Html.Partial("Buscador", new Movimiento())
+        </td>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.COD_CIA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.COMPANIA_VENTA_3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ALMACEN_VENTA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TIPO_MOVIMIENTO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TIPO_DOCUMENTO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NRO_DOCUMENTO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.COD_ITEM_2)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NRO_DOCUMENTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.COMPANIA_VENTA_3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ALMACEN_VENTA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TIPO_MOVIMIENTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TIPO_DOCUMENTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NRO_DOCUMENTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.COD_ITEM_2)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Editar", new {  id=item.NRO_DOCUMENTO  }) |
+            @Html.ActionLink("Delete", "Eliminar", new {  id=item.NRO_DOCUMENTO })
+        </td>
+    </tr>
+}
+
+</table>

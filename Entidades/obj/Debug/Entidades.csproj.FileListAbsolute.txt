@@ -1,0 +1,5 @@
+D:\ExamenDinet\ExamenDinet\Entidades\bin\Debug\Entidades.dll
+D:\ExamenDinet\ExamenDinet\Entidades\bin\Debug\Entidades.pdb
+D:\ExamenDinet\ExamenDinet\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\ExamenDinet\ExamenDinet\Entidades\obj\Debug\Entidades.dll
+D:\ExamenDinet\ExamenDinet\Entidades\obj\Debug\Entidades.pdb

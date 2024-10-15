@@ -1,0 +1,11 @@
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Negocio.dll
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Negocio.pdb
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Entidades.dll
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Repositorio.dll
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Entidades.pdb
+D:\ExamenDinet\ExamenDinet\Negocio\bin\Debug\Repositorio.pdb
+D:\ExamenDinet\ExamenDinet\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\ExamenDinet\ExamenDinet\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\ExamenDinet\ExamenDinet\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\ExamenDinet\ExamenDinet\Negocio\obj\Debug\Negocio.dll
+D:\ExamenDinet\ExamenDinet\Negocio\obj\Debug\Negocio.pdb

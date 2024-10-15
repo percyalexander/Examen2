@@ -1,0 +1,36 @@
+﻿@model Entidades.Movimiento
+
+@using (Html.BeginForm("Buscar", "Movimiento", FormMethod.Post, new { @id = "Movimiento-Buscar", @name = "Movimiento-Buscar" }))
+{
+<div>
+    <h4>Buscador</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TIPO_MOVIMIENTO)
+        </dt>
+
+        <dd>
+            @Html.EditorFor(model => model.TIPO_MOVIMIENTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TIPO_DOCUMENTO)
+        </dt>
+
+        <dd>
+            @Html.EditorFor(model => model.TIPO_DOCUMENTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NRO_DOCUMENTO)
+        </dt>
+
+        <dd>
+            @Html.EditorFor(model => model.NRO_DOCUMENTO)
+        </dd>
+
+    </dl>
+    <input type="submit" value="Buscar" />
+</div>
+}

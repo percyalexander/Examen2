@@ -1,0 +1,9 @@
+D:\ExamenDinet\ExamenDinet\Repositorio\bin\Debug\Repositorio.dll
+D:\ExamenDinet\ExamenDinet\Repositorio\bin\Debug\Repositorio.pdb
+D:\ExamenDinet\ExamenDinet\Repositorio\bin\Debug\Entidades.dll
+D:\ExamenDinet\ExamenDinet\Repositorio\bin\Debug\Entidades.pdb
+D:\ExamenDinet\ExamenDinet\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+D:\ExamenDinet\ExamenDinet\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+D:\ExamenDinet\ExamenDinet\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+D:\ExamenDinet\ExamenDinet\Repositorio\obj\Debug\Repositorio.dll
+D:\ExamenDinet\ExamenDinet\Repositorio\obj\Debug\Repositorio.pdb
